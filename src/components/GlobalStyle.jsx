@@ -42,8 +42,9 @@ export const GlobalStyle = createGlobalStyle`
     padding: 3.8rem;
     width: 26rem;
     margin-inline: auto;
-    margin-block: 6rem;
     border-radius: 9.6px;
+    margin-top: 6rem;
+    top: 6rem;
   }
 
   section {
