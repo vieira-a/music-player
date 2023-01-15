@@ -38,9 +38,16 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   main {
+    background-color: ${colors["blue-dark"]};
     padding: 3.8rem;
     width: 26rem;
-    text-align: center;
+    margin-inline: auto;
+    margin-block: 6rem;
+    border-radius: 9.6px;
+  }
+
+  section {
+    margin-bottom: 2.8rem;
   }
   
 `

@@ -1,14 +1,22 @@
-import { GlobalStyle } from "./components/GlobalStyle"
-import Headings from "./components/Headings/Headings"
+import { GlobalStyle } from "./components/GlobalStyle";
+import Headings from "./components/Headings/Headings";
+import Cover from "./components/Cover/Cover";
 
 function App() {
 
   return (
-    <div className="App">
+    <main>
       <GlobalStyle />
-      <Headings />
+      
+      <section>
+        <Cover />
+      </section>
 
-    </div>
+      <section>
+        <Headings />
+      </section>
+      
+    </main>
   )
 }
 
